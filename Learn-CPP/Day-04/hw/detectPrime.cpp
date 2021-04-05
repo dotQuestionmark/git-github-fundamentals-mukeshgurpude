@@ -9,7 +9,8 @@ int main(void){
   cout<<"Enter the number to check: ";
   cin>>num;
 
-  // Don't know, if this loop is efficient
+  
+  // Check till i*i<=num
   for(int i=2; i<num/2+1; i++){
     if(num%i==0){
       isPrime = false;
